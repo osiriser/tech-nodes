@@ -67,14 +67,14 @@ echo " "
 echo "Ключ успешно сохранен в /root/jwtsecret"
 echo " "
 echo " "
-echo "ЗАПУСК КОНТЕЙНЕРА ЗАВИСИМОСТИ PRYSM"
+echo "ЗАПУСК КОНТЕЙНЕРА ЗАВИСИМОСТИ BEACON"
 echo " "
 echo " "
 server_ip=$(wget -qO- eth0.me)
 echo "http://${server_ip}:3500/eth/v1alpha1/node/syncing"
 echo "ДОЛЖЕН ВЫВЕСТИ:  {"syncing":true} после запуска контейнера"
 echo "Введите эти команды"
-echo "screen –S prysm"
+echo "screen –S beacon"
 echo "docker run -it \
 -v $HOME/.eth2:/data \
 --network="host" \
