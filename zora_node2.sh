@@ -1,3 +1,4 @@
+#!/bin/bash
 git clone https://github.com/conduitxyz/node.git
 echo " "
 echo " "
