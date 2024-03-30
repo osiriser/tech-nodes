@@ -60,7 +60,7 @@ read -p "ВВЕДИТЕ ВЫВОД КОМАНДЫ ВЫШЕ(СТРОКА СИМО
 echo " "
 echo " "
 echo " "
-echo "$jwt_secret" > /root/jwtsecret
+echo "$link_openssl" > /root/jwtsecret
 echo " "
 echo " "
 echo " "
