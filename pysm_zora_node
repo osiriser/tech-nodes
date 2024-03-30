@@ -1,6 +1,4 @@
-#!/bin/bash
-tput reset 
-tput civis 
+#!/bin/bash 
 echo "ОТКРЫТИЕ ПОРТОВ"
 sudo ufw allow 8845
 sudo ufw allow 6160
@@ -71,6 +69,12 @@ echo " "
 echo " "
 screen –S prysm 
 echo "ЗАПУСК КОНТЕЙНЕРА ЗАВИСИМОСТИ PRYSM"
+echo " "
+echo " "
+server_ip=$(wget -qO- eth0.me)
+echo "http://${server_ip}:3500/eth/v1alpha1/node/syncing"
+echo "ДОЛЖЕН ВЫВЕСТИ:  {"syncing":true}"
+echo " "
 docker run -it \
 -v $HOME/.eth2:/data \
 --network="host" \
