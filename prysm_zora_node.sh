@@ -67,15 +67,15 @@ echo " "
 echo "Ключ успешно сохранен в /root/jwtsecret"
 echo " "
 echo " "
-screen –S prysm 
 echo "ЗАПУСК КОНТЕЙНЕРА ЗАВИСИМОСТИ PRYSM"
 echo " "
 echo " "
 server_ip=$(wget -qO- eth0.me)
 echo "http://${server_ip}:3500/eth/v1alpha1/node/syncing"
-echo "ДОЛЖЕН ВЫВЕСТИ:  {"syncing":true}"
-echo " "
-docker run -it \
+echo "ДОЛЖЕН ВЫВЕСТИ:  {"syncing":true} после запуска контейнера"
+echo "Введите эти команды"
+echo "screen –S prysm"
+echo "docker run -it \
 -v $HOME/.eth2:/data \
 --network="host" \
 -v /root/jwtsecret:/jwtsecret \
@@ -85,5 +85,7 @@ gcr.io/prysmaticlabs/prysm/beacon-chain:stable \
 --datadir=/data \
 --jwt-secret=/jwtsecret \
 --grpc-gateway-host=0.0.0.0 \
---execution-endpoint=http://http://localhost/:8745
+--execution-endpoint=http://http://localhost/:8745"
+
+
 
