@@ -1,4 +1,4 @@
-(https://github.com/osiriser/tech-nodes/blob/main/tech_nodes.jpeg)
+![Image alt](https://github.com/osiriser/tech-nodes/blob/main/tech_nodes.jpeg)
 # Tech Nodes Crypto Node Management Scripts
 
 Welcome to the Tech Nodes Crypto Node Management Scripts repository! 
