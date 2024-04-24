@@ -21,7 +21,7 @@ To start using the Tech Nodes Crypto Node Management Scripts, follow these steps
 
 1. **Clone the Repository**: Clone this repository to your local machine.
    ```
-   git clone https://github.com/your-username/tech-nodes-scripts.git
+   (https://github.com/osiriser/tech-nodes.git
    ```
 
 2. **Install Dependencies**: Ensure that you have all necessary dependencies installed on your system. Refer to the documentation for detailed instructions.
@@ -38,17 +38,16 @@ For detailed documentation and usage instructions, please refer to the [Wiki](ht
 
 ## Support
 
-If you need any assistance or have questions about the Tech Nodes Crypto Node Management Scripts, don't hesitate to contact us at [support@technodes.com](mailto:support@technodes.com).
+If you need any assistance or have questions about the Tech Nodes Crypto Node Management Scripts, don't hesitate to contact us at [support@technodes.com](radomircomp@gmail.com).
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License
 
 ## About Tech Nodes
 
 Tech Nodes is a leading provider of solutions for managing cryptocurrency nodes and participating in blockchain networks. Our mission is to empower individuals and organizations to actively engage with the crypto ecosystem and contribute to its growth and development.
 
-For more information about Tech Nodes and our services, visit our [website](https://www.technodes.com).
 
 ## Disclaimer
 
