@@ -1,4 +1,4 @@
-
+https://github.com/osiriser/tech-nodes/blob/701a768441678f1211a550b4d5ef219fbcbe4e0b/tech_nodes.jpeg
 # Tech Nodes Crypto Node Management Scripts
 
 Welcome to the Tech Nodes Crypto Node Management Scripts repository! 
