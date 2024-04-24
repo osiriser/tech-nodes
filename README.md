@@ -32,13 +32,10 @@ To start using the Tech Nodes Crypto Node Management Scripts, follow these steps
 
 5. **Contribute**: We welcome contributions from the community! If you encounter any issues or have ideas for improvements, feel free to open an issue or submit a pull request.
 
-## Documentation
-
-For detailed documentation and usage instructions, please refer to the [Wiki](https://github.com/your-username/tech-nodes-scripts/wiki) section of this repository.
 
 ## Support
 
-If you need any assistance or have questions about the Tech Nodes Crypto Node Management Scripts, don't hesitate to contact us at [support@technodes.com](radomircomp@gmail.com).
+If you need any assistance or have questions about the Tech Nodes Crypto Node Management Scripts, don't hesitate to contact us at (radomircomp@gmail.com).
 
 ## License
 
